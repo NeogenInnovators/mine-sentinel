@@ -223,7 +223,7 @@ Environmental sensors must maintain accuracy in harsh mining conditions.
 
 * Devices must operate reliably under dust, moisture, and high temperature.
 
-## Team Name - Neo-Gen Innovotors
+## Team Name - NGI - Alpha
 - Mukul
 - Deepanshu
 - Sahil
