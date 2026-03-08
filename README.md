@@ -11,7 +11,7 @@ The system enables continuous monitoring of miners, early detection of dangerous
 This solution is especially suitable for **coal mines, underground tunnels, mineral extraction sites, and hazardous industrial environments.**
 
 ## 🎬 Mine Sentinel System
-**Project Demo Video** https://drive.google.com/file/d/1z4jlrrYp9B1TGmmUEdv1vXawnGtPZjj0/view?usp=drivesdk
+**Project Demo Video** https://drive.google.com/file/d/15ZDdwaEFc0i0Id_A6MLhUpGYk6kaHdz6/view?usp=drivesdk
 
 ![WhatsApp Image 2026-03-08 at 11 24 49 AM](https://github.com/user-attachments/assets/342ffa6b-6dff-4e03-90bb-0089c29718d4)
 ![1f68274c-5345-40a7-9902-27d6e0380736](https://github.com/user-attachments/assets/840fab59-c48d-4154-986c-41ddb682f762)
