@@ -142,7 +142,8 @@ Activates alarms
 Helps rescue teams identify the affected miner's location.
 
 ## Data Flow Diagram
-![Uploading 99bcd522-0c67-4f56-85d1-5624015d7e34.jpg…]()
+![99bcd522-0c67-4f56-85d1-5624015d7e34](https://github.com/user-attachments/assets/dd44515f-ae2d-4e68-aa86-be8836326ebc)
+
 
 ## Challenges
 ## Underground Communication Limitations
