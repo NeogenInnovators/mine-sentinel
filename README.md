@@ -1,4 +1,4 @@
-## Hackthon AceHack 5.O 
+## Hackathon AceHack 5.O 
 
 ## Mine Sentinel – Intelligent Underground Mining Safety & Monitoring System
 
@@ -30,18 +30,23 @@ This solution is especially suitable for **coal mines, underground tunnels, mine
 
 ## Key Features
 * **Real-Time Environmental Monitoring**
+
 The system continuously monitors environmental parameters such as toxic gases and hazardous conditions using dedicated sensors.
 
 * **Gas Detection System**
+
 Gas sensors detect harmful gases commonly found in mines such as methane and carbon monoxide, helping prevent accidents caused by gas leaks or explosions.
 
 * **Structural Movement Detection**
+
 An IMU sensor monitors vibrations and structural movement inside the mine to detect possible collapse or instability.
 
 * **Relative Location Tracking**
+
 Since GPS does not work underground, the system estimates the miner’s location using step-based movement tracking and path reconstruction.
 
 * **LoRa-Based Long-Range Communication**
+
 The system uses LoRa technology to transmit data from underground workers to the surface monitoring station with low power consumption.
 
 * **Multi-Level Risk Detection**
@@ -52,6 +57,7 @@ The system classifies hazards into multiple levels such as:
 This helps supervisors quickly identify dangerous situations.
 
 * **Emergency Alert System**
+
 In emergency situations, the system automatically sends alerts to the control station for quick response.
 
 ## System Architecture
@@ -59,108 +65,161 @@ In emergency situations, the system automatically sends alerts to the control st
 
 
 The **Mine Sentinel System** consists of three major modules:
+
 1.Wearable Miner Safety Device
+
 2.Underground Communication Node
+
 3.Surface Monitoring Control Station
 
 ## Miner Safety Wearable Device
 Each miner carries a wearable safety unit that continuously monitors their environment and movement.
 
 ## Components
+
 -ESP32 / Arduino Microcontroller
+
 -Gas Sensors
+
 -IMU Sensor (Accelerometer & Gyroscope)
+
 -LoRa Module
+
 -Emergency Alert Button
+
 -Battery Power Supply
 
 ## Functions
+
 -Detects harmful gases
+
 -Monitors miner movement and activity
+
 -Detects abnormal vibration or collapse risk
+
 -Sends sensor data to the communication node
+
 -Sends emergency alerts if danger is detected
 
 ## Underground Communication Node
+
 Communication nodes act as relay stations inside the mine to transmit data between miners and the control station.
 
 ## Components
+
 -ESP32 Microcontroller
+
 -LoRa Module
+
 -Power Supply
+
 -Signal Relay Unit
 
 ## Functions
+
 -Receives data from wearable miner devices
+
 -Forwards information to the surface control panel
+
 -Maintains long-range communication inside the mine
 
 ## Surface Monitoring Control Station
+
 The **control station** acts as the central monitoring system where all data is received and analyzed.
 
 ## Components
+
 -ESP32 Microcontroller
+
 -LoRa Receiver
+
 -Display Panel / Dashboard
+
 -Alarm System
 
 ## Functions
+
 -Displays real-time miner safety data
+
 -Detects gas hazards and structural risks
+
 -Shows miner status and alerts
+
 -Triggers alarms during emergencies
+
 -Provides critical information for rescue teams
 
 ## Working of the System
+
 The Mine Sentinel system operates through coordinated communication between the **miner wearable device, underground nodes, and the control station.**
 
-**Environmental Monitoring**
+* **Environmental Monitoring**
+
 The wearable device continuously collects data from gas sensors and IMU sensors.
 
-**Data Transmission**
+* **Data Transmission**
+
 The collected sensor data is transmitted through LoRa communication to underground communication nodes.
 
-**Data Relay**
+* **Data Relay**
+
 The communication nodes forward the received information to the surface control station.
 
-**Data Analysis**
+* **Data Analysis**
+
 The control station analyzes incoming data and identifies potential hazards.
 
-**Alert Generation**
+* **Alert Generation**
+
 If dangerous conditions are detected:
+
 The system generates alerts
+
 The alarm system is activated
+
 The miner’s last known position is identified
 
 ## Emergency Handling
-When a dangerous condition occurs:
-Gas concentration exceeds safe limits
-Structural vibration indicates collapse risk
-A miner triggers the emergency alert button
+
+* When a dangerous condition occurs:
+
+* Gas concentration exceeds safe limits
+
+* Structural vibration indicates collapse risk
+
+* A miner triggers the emergency alert button
 
 The system immediately:
-Sends an **emergency signal**
-Displays the alert at the control station
-Activates alarms
-Helps rescue teams identify the affected miner's location.
+
+* Sends an **emergency signal**
+
+* Displays the alert at the control station
+
+* Activates alarms
+
+* Helps rescue teams identify the affected miner's location.
 
 ## Data Flow Diagram
 ![99bcd522-0c67-4f56-85d1-5624015d7e34](https://github.com/user-attachments/assets/dd44515f-ae2d-4e68-aa86-be8836326ebc)
 
 
 ## Challenges
+
 ## Underground Communication Limitations
 
 Wireless communication in underground mines is difficult due to rock layers and physical barriers.
 
-**Power Management**
+* **Power Management**
+
 Ensuring long battery life for wearable devices is a major challenge.
 
-**Sensor Accuracy**
+* **Sensor Accuracy**
+
 Environmental sensors must maintain accuracy in harsh mining conditions.
 
-**Hardware Reliability**
-Devices must operate reliably under dust, moisture, and high temperature.
+* **Hardware Reliability**
+
+* Devices must operate reliably under dust, moisture, and high temperature.
 
 ## Team Name - Neo-Gen Innovotors
 - Mukul
