@@ -55,6 +55,9 @@ This helps supervisors quickly identify dangerous situations.
 In emergency situations, the system automatically sends alerts to the control station for quick response.
 
 ## System Architecture
+![WhatsApp Image 2026-03-08 at 11 38 01 AM](https://github.com/user-attachments/assets/1373a6c1-724d-445b-8ebf-cfb707ca7642)
+
+
 The **Mine Sentinel System** consists of three major modules:
 1.Wearable Miner Safety Device
 2.Underground Communication Node
