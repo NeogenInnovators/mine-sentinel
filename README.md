@@ -1,5 +1,3 @@
-## Hackathon AceHack 5.O 
-
 ## Mine Sentinel – Intelligent Underground Mining Safety & Monitoring System
 
 The **Mine Sentinel System** is an IoT-based underground safety and monitoring solution designed to enhance miner safety and improve emergency response inside underground mines. Traditional communication systems often fail in underground environments due to the absence of GPS signals, cellular networks, and internet connectivity.
@@ -222,9 +220,3 @@ Environmental sensors must maintain accuracy in harsh mining conditions.
 * **Hardware Reliability**
 
 * Devices must operate reliably under dust, moisture, and high temperature.
-
-## Team Name - NGI - Alpha
-- Mukul
-- Deepanshu
-- Sahil
-- Anuj
